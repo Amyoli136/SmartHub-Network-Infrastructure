@@ -71,9 +71,11 @@ The implementation was verified using Cisco IOS `show` commands and connectivity
 
 *OSPF neighbor relationships successfully established.*
 
+
 ![Routing table Verification](documentation/Routing/Routing_Table.png)
 
 *Expected routes successfully learned*
+
 
 ---
 
@@ -82,9 +84,11 @@ The implementation was verified using Cisco IOS `show` commands and connectivity
 
 *HSRP active and standby roles successfully established*
 
+
 ![Etherchannel Verification](documentation/High_Availability_and_Redundancy/Etherchannel.png)
 
 *EtherChannel successfully established and operational*
+
 
 ---
 
@@ -93,9 +97,11 @@ The implementation was verified using Cisco IOS `show` commands and connectivity
 
 *Required VLANs successfully configured*
 
+
 ![STP Verification](documentation/Switching/STP.png)
 
 *Rapid PVST+ successfully configured and operational*
+
 
 ---
 
@@ -104,13 +110,16 @@ The implementation was verified using Cisco IOS `show` commands and connectivity
 
 *ACL policies successfully applied and enforced*
 
+
 ![SSH Verification](documentation/Verification/Admin_SSH.png)
 
 *SSH version 2 successfully enabled*
 
+
 ![Port Security Verification](documentation/Security/Port_Security.png)
 
 *Port security successfully configured and enforced*
+
 
 ---
 
@@ -119,6 +128,7 @@ The implementation was verified using Cisco IOS `show` commands and connectivity
 
 *NAT/PAT translations successfully established*
 
+
 ---
 
 ### Network Services
@@ -126,9 +136,11 @@ The implementation was verified using Cisco IOS `show` commands and connectivity
 
 *DHCP address assignment successfully verified*
 
+
 ![HTTP Verification](documentation/Services/DNS_&_HTTP.png)
 
 *HTTP service successfully accessed*
+
 
 ---
 
@@ -137,6 +149,7 @@ The implementation was verified using Cisco IOS `show` commands and connectivity
 ![Network_Connectivity](documentation/Verification/Internal_ping.png)
 
 *ACL policies successfully*
+
 
 ---
 
