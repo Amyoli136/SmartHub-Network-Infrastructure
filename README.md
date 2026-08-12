@@ -61,9 +61,69 @@ The server network provides services including:
 - NTP
 - Network management services
 
-## Verification
+## Verification and Testing
 
 The implementation was verified using Cisco IOS `show` commands and connectivity tests to confirm routing, NAT, HSRP, ACLs, VLANs, EtherChannel, STP, SSH, and network services.
+
+---
+### Routing
+![OSPF Neighbor Verification](documentation/Routing/OSPF_neighbor.png)
+*OSPF neighbor relationships successfully established. *
+
+![Routing table Verification](documentation/Routing/Routing_Table.png)
+*Expected routes successfully learned *
+
+---
+
+### High Availability
+![HSRP Verification](documentation/High_Availability_and_Redundancy/HSRP.png)
+*HSRP active and standby roles successfully established *
+
+![Etherchannel Verification](documentation/High_Availability_and_Redundancy/Etherchannel.png)
+*EtherChannel successfully established and operational*
+
+---
+
+### Switching
+![Vlan Verification](documentation/Switching/Vlan_&_Trunking.png)
+*Required VLANs successfully configured *
+
+![STP Verification](documentation/Switching/STP.png)
+*Rapid PVST+ successfully configured and operational *
+
+---
+
+### Security
+![ACL Verification](documentation/Security/ACL.png)
+*ACL policies successfully applied and enforced *
+
+![SSH Verification](documentation/Verification/Admin_SSH.png)
+*SSH version 2 successfully enabled *
+
+![Port Security Verification](documentation/Security/Port_Security.png)
+*Port security successfully configured and enforced *
+
+---
+
+### NAT & Internet Connectivity
+![Nat Verification](documentation/NAT&NTP/Nat.png)
+*NAT/PAT translations successfully established *
+
+---
+
+### Network Services
+![DHCP Verification](documentation/Services/DHCP.png)
+*DHCP address assignment successfully verified *
+
+![HTTP Verification](documentation/Services/DNS_&_HTTP.png)
+*HTTP service successfully accessed *
+
+---
+
+### Connectivity
+![Network connectivity verified](documentation/Verification/Internet_Ping.png)
+![Network_Connectivity](documentation/Verification/Internal_ping.png)
+*ACL policies successfully*
 
 ---
 
