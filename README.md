@@ -10,7 +10,7 @@ working topology.
 
 ![SmartHUB Network Topology](documentation/network-topology.png)
 
-*The network consists of multilayer switches, access switches, an edge router, client networks, and a dedicated server network. *
+*The network consists of multilayer switches, access switches, an edge router, client networks, and a dedicated server network.*
 
 ---
 
@@ -68,61 +68,74 @@ The implementation was verified using Cisco IOS `show` commands and connectivity
 ---
 ### Routing
 ![OSPF Neighbor Verification](documentation/Routing/OSPF_neighbor.png)
-*OSPF neighbor relationships successfully established. *
+
+*OSPF neighbor relationships successfully established.*
 
 ![Routing table Verification](documentation/Routing/Routing_Table.png)
-*Expected routes successfully learned *
+
+*Expected routes successfully learned*
 
 ---
 
 ### High Availability
 ![HSRP Verification](documentation/High_Availability_and_Redundancy/HSRP.png)
-*HSRP active and standby roles successfully established *
+
+*HSRP active and standby roles successfully established*
 
 ![Etherchannel Verification](documentation/High_Availability_and_Redundancy/Etherchannel.png)
+
 *EtherChannel successfully established and operational*
 
 ---
 
 ### Switching
 ![Vlan Verification](documentation/Switching/Vlan_&_Trunking.png)
-*Required VLANs successfully configured *
+
+*Required VLANs successfully configured*
 
 ![STP Verification](documentation/Switching/STP.png)
-*Rapid PVST+ successfully configured and operational *
+
+*Rapid PVST+ successfully configured and operational*
 
 ---
 
 ### Security
 ![ACL Verification](documentation/Security/ACL.png)
-*ACL policies successfully applied and enforced *
+
+*ACL policies successfully applied and enforced*
 
 ![SSH Verification](documentation/Verification/Admin_SSH.png)
-*SSH version 2 successfully enabled *
+
+*SSH version 2 successfully enabled*
 
 ![Port Security Verification](documentation/Security/Port_Security.png)
-*Port security successfully configured and enforced *
+
+*Port security successfully configured and enforced*
 
 ---
 
 ### NAT & Internet Connectivity
 ![Nat Verification](documentation/NAT&NTP/Nat.png)
-*NAT/PAT translations successfully established *
+
+*NAT/PAT translations successfully established*
 
 ---
 
 ### Network Services
 ![DHCP Verification](documentation/Services/DHCP.png)
-*DHCP address assignment successfully verified *
+
+*DHCP address assignment successfully verified*
 
 ![HTTP Verification](documentation/Services/DNS_&_HTTP.png)
-*HTTP service successfully accessed *
+
+*HTTP service successfully accessed*
 
 ---
 
 ### Connectivity
 ![Network connectivity verified](documentation/Verification/Internet_Ping.png)
 ![Network_Connectivity](documentation/Verification/Internal_ping.png)
+
 *ACL policies successfully*
 
 ---
