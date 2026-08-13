@@ -148,7 +148,7 @@ The implementation was verified using Cisco IOS `show` commands and connectivity
 ![Network connectivity verified](documentation/Verification/Internet_Ping.png)
 ![Network_Connectivity](documentation/Verification/Internal_ping.png)
 
-*ACL policies successfully*
+*ACL policies successfully enforced while Internet access remains available.*
 
 
 ---
